@@ -5,13 +5,14 @@
         <title>Dummy tailwind</title>
         <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="./style.css ">
 <link rel="stylesheet" href="./tailwind.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </head>
   <body>
       <!-- *****navbar section starts******* -->
       <!--****************************-->
-      <nav class=" ">
+      <nav class="w-full bg-white ">
         <div class="max-w-6xl mx-auto px-4">
           <div class="flex justify-between">
             <div class="flex space-x-7">
@@ -72,9 +73,101 @@
 
        <!-- *****Banner section starts******* -->
       <!--****************************-->
-      <section class="bg-no-repeat bg-center bg-cover p-72" style="background-image: url(./banner.jpg); ">
-        <h1 class="text-white">hello dummy project</h1>
+      <section class="bg-no-repeat bg-center bg-cover py-72 text-center text-white" style="background-image: url(./banner.jpg); ">
+        <div class="banner-content max-w-3xl px-4 m-auto">
+        <h1 class="text-white text-4xl font-bold capitalize">hello dummy project</h1>
+        <p class="pt-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed mollitia eligendi atque distinctio voluptatibus, dolor saepe temporibus explicabo incidunt dicta quam recusandae minus rerum numquam aliquam. Quas quia corrupti repellat.</p>
+        <div class="btn-div pt-6">
+          <a href="" class="bg-yellow-600 py-2 px-4 rounded text-base">Learn more</a>
+        </div>
+      </div>
+      </section>
+      <!-- *****Banner section ends******* -->
+      <!--****************************-->
+
+      <!-- *****About section starts******* -->
+      <!--****************************-->
+      <section class="pt-28">
+        <div class="container m-auto	px-4">
+          <div class="about-row flex items-center flex-wrap">
+            <div class="text-col md:w-1/2 p-4 sm:w-full">
+              <h2 class="text-3xl font-bold	">About Us</h2>
+              <p class="text-gray-400 text-sm">information about the company</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta vitae impedit laboriosam numquam ex molestiae architecto sit tempora suscipit facilis ad, necessitatibus, delectus aspernatur! Totam, culpa. Ipsa doloremque reiciendis voluptas?</p>
+              <div class="btn-div pt-6">
+                <a href="" class="bg-yellow-600 py-2 px-4 rounded text-base text-white">Learn more</a>
+              </div>
+            </div>
+            <div class="image-col md:w-1/2 sm:w-full">
+              <img src="./banner.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- *****About section ends******* -->
+      <!--****************************-->
+
+      <!-- *****service section starts******* -->
+      <!--****************************-->
+      <section class="service-section pt-28">
+        <div class="container m-auto px-4">
+          <div class="service-heading">
+            <h2 class="font-bold text-3xl text-center capitalize	pb-16">Our services</h2>
+          </div>
+          <div class="service-row flex flex-wrap">
+            <div class="service-col md:w-1/3">
+              <div class="service-box bg-yellow-600 mx-3 p-8 rounded delay-150 duration-300 ease-in-out hover:bg-green-500">
+              <i class="fas fa-ambulance text-2xl"></i>
+              <h3 class="text-xl font-bold pt-2">Service heading</h3>
+              <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo facilis sit impedit ipsam architecto modi ea, temporibus vero molestiae doloremque enim dignissimos voluptate.</p>
+            </div>
+            </div>
+            <div class="service-col md:w-1/3">
+              <div class="service-box bg-yellow-600 mx-3 p-8 rounded delay-150 duration-300 ease-in-out hover:bg-green-500">
+              <i class="fas fa-ambulance text-2xl"></i>
+              <h3 class="text-xl font-bold pt-2">Service heading</h3>
+              <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo facilis sit impedit ipsam architecto modi ea, temporibus vero molestiae doloremque enim dignissimos voluptate.</p>
+            </div>
+            </div>
+            <div class="service-col md:w-1/3">
+              <div class="service-box bg-yellow-600 mx-3 p-8 rounded delay-150 duration-300 ease-in-out	 hover:bg-green-500">
+              <i class="fas fa-ambulance text-2xl"></i>
+              <h3 class="text-xl font-bold pt-2">Service heading</h3>
+              <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo facilis sit impedit ipsam architecto modi ea, temporibus vero molestiae doloremque enim dignissimos voluptate.</p>
+            </div>
+            </div>
+
+          </div>
+          <div class="service-row flex flex-wrap pt-6">
+            <div class="service-col md:w-1/3">
+              <div class="service-box bg-yellow-600 mx-3 p-8 rounded delay-150 duration-300 ease-in-out hover:bg-green-500">
+              <i class="fas fa-ambulance text-2xl"></i>
+              <h3 class="text-xl font-bold pt-2">Service heading</h3>
+              <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo facilis sit impedit ipsam architecto modi ea, temporibus vero molestiae doloremque enim dignissimos voluptate.</p>
+            </div>
+            </div>
+            <div class="service-col md:w-1/3">
+              <div class="service-box bg-yellow-600 mx-3 p-8 rounded delay-150 duration-300 ease-in-out hover:bg-green-500">
+              <i class="fas fa-ambulance text-2xl"></i>
+              <h3 class="text-xl font-bold pt-2">Service heading</h3>
+              <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo facilis sit impedit ipsam architecto modi ea, temporibus vero molestiae doloremque enim dignissimos voluptate.</p>
+            </div>
+            </div>
+            <div class="service-col md:w-1/3">
+              <div class="service-box bg-yellow-600 mx-3 p-8 rounded delay-150 duration-300 ease-in-out hover:bg-green-500">
+              <i class="fas fa-ambulance text-2xl"></i>
+              <h3 class="text-xl font-bold pt-2">Service heading</h3>
+              <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo facilis sit impedit ipsam architecto modi ea, temporibus vero molestiae doloremque enim dignissimos voluptate.</p>
+            </div>
+            </div>
+
+          </div>
+
+        </div>
 
       </section>
+
+
+      <script src="./custom.js"></script>
   </body>
 </html>
